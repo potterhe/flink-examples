@@ -69,6 +69,12 @@ under the License.
 
 		<!-- Add connector dependencies here. They must be in the default scope (compile). -->
 
+		<dependency>
+			<groupId>com.ververica</groupId>
+			<artifactId>flink-connector-mysql-cdc</artifactId>
+			<!-- The dependency is available only for stable releases, SNAPSHOT dependencies need to be built based on master or release- branches by yourself. -->
+			<version>2.3.0</version>
+		</dependency>
 		<!-- Example:
 
 		<dependency>
